@@ -1,6 +1,6 @@
 # DDML
 
-Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi KDL, PDL, PDML ir ConTeXt pavyzdžiais. Pavyzdys paimtas iš KDL dokumentacijos
+Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi KDL, PDL, PDML, ConTeXt ir Djot (Markdown) pavyzdžiais. Pavyzdys paimtas iš KDL dokumentacijos
 
 ## Šaltiniai
 
