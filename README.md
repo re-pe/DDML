@@ -27,3 +27,7 @@ Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi KDL, PDL, PDML ir
 
 1. [Savybės perteikiamos JSON objektu](doc/js01.md)
 2. [Savybės perteikiamos metodais](doc/js02.md)
+
+## Verta įgyvendinti
+
+1+3 (duomenų žymėjimui), 4+6 ir 9 variantai (dokumentų  žymėjimui)
