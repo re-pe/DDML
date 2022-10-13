@@ -23,11 +23,11 @@ Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi KDL, PDL, PDML, C
 9. [Modifikuota Markdown sintaksė](doc/var09.md)
 10. [Hibridine sintaksė](doc/var10.md)
 
+## Verta įgyvendinti
+
+1+3 (duomenų žymėjimui), 4+6 ir 9 variantai (dokumentų  žymėjimui)
+
 ## Galimos realizacijos JavaScriptu
 
 1. [Savybės perteikiamos JSON objektu](doc/js01.md)
 2. [Savybės perteikiamos metodais](doc/js02.md)
-
-## Verta įgyvendinti
-
-1+3 (duomenų žymėjimui), 4+6 ir 9 variantai (dokumentų  žymėjimui)
