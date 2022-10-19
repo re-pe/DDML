@@ -63,4 +63,6 @@ html {
 }
 ```
 
+[QML sintaksės pritaikymo vietoje XAML siūlymas](qml-like.md)
+
 [Atgal](../README.md)
