@@ -1,10 +1,10 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # KDL
 
 [KDL kalba](https://kdl.dev/)
 
-```text
+```js
 !doctype "html"
 html lang="en" {
     head {
@@ -54,4 +54,4 @@ html lang="en" {
 }
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

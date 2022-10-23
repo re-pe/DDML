@@ -1,4 +1,4 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Djot
 
@@ -63,4 +63,4 @@ page in the Github repo. Feel free to jump in and give us your 2 cents!
 :::
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

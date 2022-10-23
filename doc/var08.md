@@ -1,4 +1,4 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Variantas 9. Modifikuota TeX sintaksė
 
@@ -74,4 +74,4 @@
 ]
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

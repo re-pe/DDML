@@ -1,4 +1,4 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Variantas 7. Modifikuota PDML sintaksė
 
@@ -68,4 +68,4 @@ Pavyzdys pritaikant modifikuotą PDML kalbos sintaksę. Žymės prasideda "[" ir
 ]
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

@@ -1,10 +1,10 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Variantas 1. Pagrindinė sintaksė
 
 DDML kodas
 
-``` text
+```js
     header {.class="py-10 bg-gray-300"} (
       h1 {.class="text-4xl text-center"} ("kdl - Kat's Document Language")
     )
@@ -12,7 +12,7 @@ DDML kodas
 
 atitinka JavaScript'o kodą
 
-```text
+```js
     //Header ir H1 - objektų konstruktoriai
 
     let header = Header(...) // numatytosios savybių ir turinio reikšmės
@@ -32,7 +32,7 @@ atitinka JavaScript'o kodą
 
 ## Pavyzdys
 
-```text
+```js
 ;; Pagrindinė sintaksė
 ;; Tai - komentaras. ";;" prilygsta eilutės pabaigai. Visi simboliai tarp šių simbolių ir naujos eilutės ignoruojami
 ;; ";" skiria sakinius, tuščius taip pat
@@ -88,4 +88,4 @@ html {.lang="en"} (
 )
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

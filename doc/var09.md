@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD011 MD033 -->
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Variantas 9. Modifikuota Markdown sintaksė
 
@@ -328,8 +328,8 @@ Rezultatas
       <td><!-- comment --></td>
     </tr>    <tr>
       <td><code>$strong[strong]</code></td>
-      <td><code>$*[strong]</code></td>
-      <td><code>[*strong*]</code></td>
+      <td><code>$![strong]</code></td>
+      <td><code>[!strong!]</code></td>
       <td><code>&lt;strong&gt;strong&lt;/strong&gt;</code></td>
       <td><strong>strong</strong></td>
     </tr>
@@ -369,18 +369,32 @@ Rezultatas
       <td><sub>subscript</sub></td>
     </tr>
     <tr>
-      <td><code>$cite[citation]</code></td>
-      <td><code>$?[citation]</code></td>
-      <td><code>[?citation?]</code></td>
-      <td><code>&lt;cite&gt;citation&lt;/cite&gt;</code></td>
-      <td><cite>citation</cite></td>
-    </tr>
-    <tr>
       <td><code>$span._color(green)[span]</code></td>
       <td><code>$%._color(green)[span]</code></td>
       <td><code>{._color(green)}[%span%]</code></td>
       <td><code>&lt;span style="color:green;"&gt;span&lt;/span&gt;</code></td>
       <td><span style="color:green;">span</span></td>
+    </tr>
+    <tr>
+      <td><code>$li[text]</code></td>
+      <td><code>$*[text]</code></td>
+      <td><code>[*text*]</code></td>
+      <td><code>&lt;li&gt;text&lt;/li&gt;</code></td>
+      <td><ul><li>text</li></ul></td>
+    </tr>
+    <tr>
+      <td><code>$li[text]</code></td>
+      <td><code>$#[text]</code></td>
+      <td><code>[#text#]</code></td>
+      <td><code>&lt;li&gt;text&lt;/li&gt;</code></td>
+      <td><ol><li>text</li></ol></td>
+    </tr>
+    <tr>
+      <td><code>$cite[citation]</code></td>
+      <td><code>$?[citation]</code></td>
+      <td><code>[?citation?]</code></td>
+      <td><code>&lt;cite&gt;citation&lt;/cite&gt;</code></td>
+      <td><cite>citation</cite></td>
     </tr>
     <tr>
       <td><code>$code[code]</code></td>
@@ -398,14 +412,14 @@ Rezultatas
     </tr>
     <tr>
       <td><code>$caption[Table caption    ]
-$throw   [Header 1|Header 2]
-$trow    [Cell 1  |Cell 2  ]
-$trow    [Cell 3  |Cell 4  ]</code></td>
-      <td><code>$![Table caption    ]
+$throw  [Header 1|Header 2]
+$trow   [Cell 1  |Cell 2  ]
+$trow   [Cell 3  |Cell 4  ]</code></td>
+      <td><code>$&[Table caption    ]
 $~[Header 1|Header 2]
 $|[Cell 1  |Cell 2  ]
 $|[Cell 3  |Cell 4  ]</code></td>
-      <td><code>[! Table caption       !]
+      <td><code>[& Table caption       &]
 [~ Header 1 | Header 2 ~]
 [| Cell 1   | Cell 2   |]
 [| Cell 3   | Cell 4   |]</code></td>
@@ -436,4 +450,4 @@ $|[Cell 3  |Cell 4  ]</code></td>
   </tbody>
 </table>
 
-[Atgal](../README.md)
+[Grįžti](index.md)

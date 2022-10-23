@@ -2,6 +2,7 @@
 
 Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi QML, KDL, PDL, PDML, ConTeXt ir Djot (Markdown) pavyzdžiais. Pavyzdys paimtas iš KDL dokumentacijos
 
-* [Pradinis puslapis](index.md)
+* [Aprašymas](doc/index.md)
+* [README](README.md)
 
-Įjungus Live Serverį, dokumentai matomi naršyklėje
+Įjungus Live Serverį, doc katalogo turinys matomas naršyklėje

@@ -1,4 +1,4 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # TeX (ConTeXt)
 
@@ -50,4 +50,4 @@ with
 \stoptext
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)

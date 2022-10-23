@@ -1,4 +1,4 @@
-[Atgal](qml.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](qml.md) <!-- markdownlint-disable-line MD041 -->
 
 # QML sintaksė
 
@@ -85,4 +85,4 @@ StackPanel {
 }
 ```
 
-[Atgal](qml.md)
+[Grįžti](qml.md)

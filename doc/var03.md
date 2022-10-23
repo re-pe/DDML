@@ -1,4 +1,4 @@
-[Atgal](../README.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
 # Variantas 3. Metodų sintaksė
 
@@ -64,4 +64,4 @@ html.lang("en") (
 )
 ```
 
-[Atgal](../README.md)
+[Grįžti](index.md)
