@@ -28,7 +28,7 @@
 Tekstas
 
 ```text
-[! Table: Shoes sizes, materials, and colors.      !]
+[& Table: Shoes sizes, materials, and colors.      &]
 [~ Name         | Size | Material    | Color       ~]
 [| All Business | 9    | leather     | brown       |]
 [| Roundabout   | 10   | hemp canvas | natural     |]
