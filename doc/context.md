@@ -1,8 +1,8 @@
 [Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
 
-# TeX (ConTeXt)
+# ConTeXt (TeX)
 
-[TeX](https://en.wikipedia.org/wiki/TeX) ([ConTeXt](https://en.wikipedia.org/wiki/ConTeXt)) kalba
+[ConTeXt](https://en.wikipedia.org/wiki/ConTeXt) ([TeX](https://en.wikipedia.org/wiki/TeX)) kalba
 
 ```tex
 % This line is a comment because % precedes it.
