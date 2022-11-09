@@ -1,4 +1,4 @@
-[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](../index.md) <!-- markdownlint-disable-line MD041 -->
 
 # QML
 
@@ -65,4 +65,4 @@ html {
 
 [QML sintaksės pritaikymo vietoje XAML siūlymas](qml-like.md)
 
-[Grįžti](index.md)
+[Grįžti](../index.md)

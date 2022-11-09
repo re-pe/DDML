@@ -1,4 +1,4 @@
-[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](page-latex.md) <!-- markdownlint-disable-line MD041 -->
 
 # LaTeX (TeX)
 
@@ -33,4 +33,4 @@
 \end{document}
 ```
 
-[Grįžti](index.md)
+[Grįžti](page-latex.md)

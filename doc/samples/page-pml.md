@@ -1,4 +1,4 @@
-[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](../index.md) <!-- markdownlint-disable-line MD041 -->
 
 # PML kalba
 
@@ -60,4 +60,4 @@
 ]
 ```
 
-[Grįžti](index.md)
+[Grįžti](../index.md)

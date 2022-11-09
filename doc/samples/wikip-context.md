@@ -1,4 +1,4 @@
-[Grįžti](index.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](page-context.md) <!-- markdownlint-disable-line MD041 -->
 
 # ConTeXt (TeX)
 
@@ -50,4 +50,4 @@ with
 \stoptext
 ```
 
-[Grįžti](index.md)
+[Grįžti](page-context.md)
