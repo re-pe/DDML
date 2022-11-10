@@ -1,80 +1,36 @@
 <!-- markdownlint-disable-next-line MD041 -->
 [Pradžion](../index.md)
 
-<link rel="stylesheet" href="./markdown.css">
-<style>
-    h3 img {
-        background-color: white;
-        height: 1rem;
-    }
-</style>
+# Žymėjimo kalbos
 
-# DDML
+[Žymėjimo kalbos](https://en.wikipedia.org/wiki/Markup_language) - tai teksto kodavimo sistemos, sudarytos iš simbolių rinkinio, įterpiamo į tekstinį dokumentą ir koduojančio instrukcijas, skirtas perteikti dokumento saugomą informaciją kitose terpėse arba kitokiu pavidalu. Žymėjimo kalba - tai taisyklių rinkinys, reglamentuojantis, kokiąus žymenis galima įtraukti į dokumentą, kad būtų galima lengviau suvokti ir apdoroti jo informaciją.
 
-Tai - duomenų ir dokumentų žymėjimo kalba. Kuriant remtasi kitomis dokumentų ir duomenų žymėjimo kalbomis.
+## Bendrosios paskirties žymėjimo kalbos
 
-## Dokumentų žymėjimo kalbų pavyzdžiai
+[Bendros paskirties žymėjimo kalbos](https://en.wikipedia.org/wiki/General-purpose_markup_language) - tai žymėjimo kalbos, naudojamos daugiau nei vienu tikslu ar atveju. Kitos, labiau specializuotos konkrečios srities žymėjimo kalbos dažnai yra pagrįstos šiomis kalbomis. Pavyzdžiui, HTML 5 ir ankstesnės versijos yra konkrečios srities žymėjimo kalbos (skirtos tinklalapiams) ir pagrįstos SGML, kuri yra bendrosios paskirties žymėjimo kalba, sintakse.
 
-Puslapio [pavyzdys](samples/page-html.html) paimtas iš KDL dokumentacijos
+* GML
+* SGML
+* XML
+* XUPL
+* [KDL](https://kdl.dev/)
+* [QML](https://en.wikipedia.org/wiki/QML)
+* [PDL](https://pml-lang.dev/)
+* [PDML](https://pdml-lang.github.io/)
 
-* [KDL](https://kdl.dev/) ([pavyzdys](samples/page-kdl.md))
-* [QML](https://en.wikipedia.org/wiki/QML) ([pavyzdys](samples/page-qml.md))
-* [PDL](https://www.pml-lang.dev/) ([pavyzdys](samples/page-pml.md))
-* [PDML](https://pdml-lang.github.io/) ([pavyzdys](samples/page-pdml.md))
+## Duomenų žymėjimo (serializacijos) kalbos
 
-### [TeX](https://en.wikipedia.org/wiki/TeX) kalbos variantai
+* CSV
+* TSV
+* JSON
 
-* [ConTeXt](https://en.wikipedia.org/wiki/ConTeXt) ([pavyzdys](samples/page-context.md))
-* [LaTeX](https://en.wikipedia.org/wiki/LaTeX) ([pavyzdys](samples/page-latex.md))
+## Dokumentų žymėjimo kalbos
 
-## [Lengvos dokumentų žymėjimo kalbos <br />(Lightweight markup languages)](https://en.wikipedia.org/wiki/Lightweight_markup_language)
+Žymėjimo kalbos, naudojamos siekiant valdyti jo struktūrą, formatavimą, ryšį tarp jo dalių, arba papildyti jį žymėmis, kad būtų lengviau jį automatizuotai apdoroti ar atvaizduoti, vadinamos [dokumentų žymėjimo kalbomis](https://en.wikipedia.org/wiki/List_of_document_markup_languages). Dokumentų žymėjimo kalbos nustato, kokios žymės turi būti įterpiamos ir kaip jos turi būti derinamos su dokumento turiniu, kad žmonėms ir kompiuterių programoms būtų lengviau juo naudotis. Tokio žymėjimo idėja ir terminija išsivystė iš popierinių rankraščių žymėjimo (t. y. redagavimo instrukcijų) tradicijos, kai redaguojami rankraščiai buvo žymimi raudonu rašikliu arba mėlynu pieštuku.
 
-### [Markdown](https://en.wikipedia.org/wiki/Markdown) ![Markdown sign](./images/Markdown-mark.svg)
+Dokumentų žymėjimo kalbos būna:
 
-#### Variantai
-
-* [Originalus John'o Gruber'io](https://daringfireball.net/projects/markdown/syntax)
-* [CommonMark](https://commonmark.org)
-* [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
-* [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
-* [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
-* [R Markdown](https://rmarkdown.rstudio.com/)
-* [Djot](https://djot.net/)
-
-#### Markdown sintaksė
-
-* [Išplėstinė - Extended Markdown](extended_syntax1.md)
-
-### Kitos kalbos
-
-* [Setetxt](https://docutils.sourceforge.io/mirror/setext/typotags.txt) - kitų lengvųjų žymėjimo kalbų pirmtakė  ([pavyzdys](setext+sgml_01.etx.txt))
-* [txt2tags](https://txt2tags.org/)  ([pavyzdys](txt2tags-sample.t2t.md))
-* [Textile]() ([pavyzdys]())
-* [AsciiDoc]() ([pavyzdys]())
-* [reStructuredText]() ([pavyzdys]())
-
-## DDML kalba
-
-### Galimi sintaksės variantai
-
-1. [Pagrindinė sintaksė](var01.md)
-2. [Modifikuota KDL sintaksė](var02.md)
-3. [Metodų sintaksė](var03.md)
-4. [Pagrindinė sintaksė invertuota](var04.md)
-5. [Modifikuota KDL sintaksė invertuota](var05.md)
-6. [Metodų sintakse invertuota](var06.md)
-7. [Modifikuota PDML sintaksė](var07.md)
-8. [Modifikuota TeX sintaksė](var08.md)
-9. [Modifikuota Markdown sintaksė](var09.md)
-10. [Hibridine sintaksė](var10.md)
-
-### Verta įgyvendinti
-
-1+3 (duomenų žymėjimui), 4+6 ir 9 variantai (dokumentų  žymėjimui)
-
-### Galimos realizacijos JavaScriptu
-
-1. [Savybės perteikiamos JSON objektu](js01.md)
-2. [Savybės perteikiamos metodais](js02.md)
+* [Visavertės](index-docml-full.md)
+* [Paprastos](index-docml-lightweight.md)
 
 [Pradžion](../index.md)

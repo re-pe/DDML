@@ -1,4 +1,4 @@
-[Grįžti](../index.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
 
 # LaTeX (TeX)
 
@@ -46,4 +46,4 @@ the Github repo. Feel free to jump in and give us your 2 cents!
 \end{enumerate}
 ```
 
-[Grįžti](../index.md)
+[Grįžti](../index-docml-full.md)
