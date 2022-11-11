@@ -1,4 +1,4 @@
-[Grįžti](qml.md) <!-- markdownlint-disable-line MD041 -->
+[Grįžti](../index-data.md) <!-- markdownlint-disable-line MD041 -->
 
 # QML sintaksė
 
@@ -85,4 +85,4 @@ StackPanel {
 }
 ```
 
-[Grįžti](qml.md)
+[Grįžti](../index-data.md)

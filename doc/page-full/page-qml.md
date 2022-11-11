@@ -63,6 +63,4 @@ html {
 }
 ```
 
-[QML sintaksės pritaikymo vietoje XAML siūlymas](qml-like.md)
-
 [Grįžti](../index-docml-full.md)
