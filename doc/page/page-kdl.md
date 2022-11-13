@@ -1,4 +1,5 @@
-[Grįžti](../index-full.md) <!-- markdownlint-disable-line MD041 -->
+<!-- markdownlint-disable-next-line MD041 -->
+[Grįžti](../index.md)
 
 # KDL
 
@@ -54,4 +55,4 @@ html lang="en" {
 }
 ```
 
-[Grįžti](../index-full.md)
+[Grįžti](../index.md)

@@ -3,7 +3,7 @@
 
 # GNU Texinfo
 
-GNU Texinfo puslapio pavyzdys, sugeneruotas [`pandoc`](https://pandoc.org/)`-to texinfo` komanda.
+GNU Texinfo puslapio pavyzdys, sugeneruotas [`pandoc`](https://pandoc.org/)`--to texinfo` komanda.
 
 ```texinfo
 @node Top
@@ -43,3 +43,5 @@ Ease of @emph{de}/serialization
 Ease of implementation
 @end enumerate
 ```
+
+[Grįžti](../index.md)

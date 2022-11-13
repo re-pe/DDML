@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line MD041 -->
-[Grįžti](../index.md) 
+[Grįžti](../index.md)
 
 # PDML kalba
 
@@ -69,4 +69,4 @@
 ]
 ```
 
-[Grįžti](../index-docml-full.md)
+[Grįžti](../index.md)

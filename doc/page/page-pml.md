@@ -1,4 +1,5 @@
-[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
+<!-- markdownlint-disable-next-line MD041 -->
+[Grįžti](../index.md)
 
 # PML kalba
 
@@ -60,4 +61,4 @@
 ]
 ```
 
-[Grįžti](../index-docml-full.md)
+[Grįžti](../index.md)
