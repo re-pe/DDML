@@ -1,8 +1,9 @@
-[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
+<!-- markdownlint-disable-next-line MD041 -->
+[Grįžti](../index.md)
 
 # QML
 
-[QML kalba](https://en.wikipedia.org/wiki/QML)
+Pavyzdys paimtas iš KDL dokumentacijos
 
 ```qml
 !doctype { html }
@@ -16,12 +17,12 @@ html {
             content:"kdl is a document language, mostly based on SDLang, with xml-like semantics that looks like you're invoking a bunch of CLI commands!"
         }
         title { "kdl - Kat's Document Language" }
-        link { rel:"stylesheet"; href:"/styles/global.css" }
+        link { rel:"stylesheet"; href:"styles/global.css" }
     }
     body {
         main {
             header {
-                class:"py-10 bg-gray-300"
+                class:"kdl-section py-10 bg-gray-300"
                 h1 { class:"text-4xl text-center"; "kdl - Kat's Document Language" }
             }
             section { 
@@ -53,8 +54,8 @@ html {
                 ol {
                     li { "Maintainability" }
                     li { "Flexibility" }
-                    li { "Cognitive simplicity and Learnability" }
-                    li { "Ease of de/serialization" }
+                    li { "Cognitive "; strong {"simplicity"}; " and "; strong {"Learnability"} }
+                    li { "Ease of "; em {"de"}; "/serialization" }
                     li { "Ease of implementation" }
                 }
             }
@@ -63,4 +64,4 @@ html {
 }
 ```
 
-[Grįžti](../index-docml-full.md)
+[Grįžti](../index.md)

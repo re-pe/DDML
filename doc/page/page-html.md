@@ -1,3 +1,10 @@
+[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
+
+# HTML
+
+[HTML kalba](https://html.spec.whatwg.org/)
+
+```html
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,11 +15,11 @@
             content="kdl is a document language, mostly based on SDLang, with xml-like semantics that looks like you're invoking a bunch of CLI commands!"
         />
         <title>kdl - Kat's Document Language</title>
-        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="styles/global.css" />
     </head>
     <body>
         <main>
-            <header class="py-10 bg-gray-300">
+            <header class="kdl-section py-10 bg-gray-300">
                 <h1 class="text-4xl text-center">kdl - Kat's Document Language</h1>
             </header>
             <section class="kdl-section" id="description">
@@ -38,11 +45,14 @@
                 <ol>
                     <li>Maintainability</li>
                     <li>Flexibility</li>
-                    <li>Cognitive simplicity and Learnability</li>
-                    <li>Ease of de/serialization</li>
+                    <li>Cognitive <strong>Simplicity</strong> and <strong>Learnability</strong></li>
+                    <li>Ease of <em>de</em>/serialization</li>
                     <li>Ease of implementation</li>
                 </ol>
             </section>
         </main>
     </body>
 </html>
+```
+
+[Grįžti](../index-docml-full.md)

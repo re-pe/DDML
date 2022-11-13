@@ -1,10 +1,9 @@
-[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
+<!-- markdownlint-disable-next-line MD041 -->
+[Grįžti](../index.md)
 
 # ConTeXt (TeX)
 
-[ConTeXt](https://en.wikipedia.org/wiki/ConTeXt) ([TeX](https://en.wikipedia.org/wiki/TeX)) kalba
-
-[Pavyzdys](wikip-context.md) iš Wikipedijos
+ConTeXt  puslapio pavyzdys, sugeneruotas [`pandoc`](https://pandoc.org/)`--to context` komanda.
 
 ```tex
 \startsectionlevel[title={kdl - Kat's Document
@@ -39,9 +38,9 @@ Principles},reference={design-principles}]
 \item
   Flexibility
 \item
-  Cognitive simplicity and Learnability
+  Cognitive {\bf Simplicity} and Learnability
 \item
-  Ease of de/serialization
+  Ease of {\em de}/serialization
 \item
   Ease of implementation
 \stopenumerate
@@ -49,4 +48,4 @@ Principles},reference={design-principles}]
 \stopsectionlevel
 ```
 
-[Grįžti](../index-docml-full.md)
+[Grįžti](../index.md)

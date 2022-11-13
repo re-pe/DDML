@@ -1,4 +1,5 @@
-[Grįžti](../index-docml-full.md) <!-- markdownlint-disable-line MD041 -->
+<!-- markdownlint-disable-next-line MD041 -->
+[Grįžti](../index.md) 
 
 # PDML kalba
 
@@ -19,12 +20,12 @@
         ]
         [title kdl - Kat's Document Language]
         [link [rel stylesheet]
-              [href /styles/global.css]
+              [href styles/global.css]
         ]
     ]
     [body
         [main
-            [header [class py-10 bg-gray-300]
+            [header [class kdl-section py-10 bg-gray-300]
                 [h1 [class text-4xl text-center]
                     kdl - Kat's Document Language
                 ]
@@ -58,8 +59,8 @@
                 [ol 
                     [li Maintainability]
                     [li Flexibility]
-                    [li Cognitive simplicity and Learnability]
-                    [li Ease of de/serialization]
+                    [li Cognitive [strong Simplicity] and [strong Learnability]]
+                    [li Ease of [em de]/serialization]
                     [li Ease of implementation]
                 ]
             ]
