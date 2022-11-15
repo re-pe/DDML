@@ -1,13 +1,6 @@
 <!-- markdownlint-disable-next-line MD041 -->
 [Pradžia](../index.md)
 
-<style>
-    img {
-        background-color: white !important;
-        height: 1rem;
-    }
-</style>
-
 # Žymėjimo kalbos
 
 [Žymėjimo kalbos][wiki:ml] – tai teksto kodavimo sistemos, sudarytos iš simbolių rinkinio, įterpiamo į tekstinį dokumentą ir koduojančio instrukcijas, skirtas perteikti dokumento saugomą informaciją kitose terpėse arba kitokiu pavidalu. Žymėjimo kalba – tai taisyklių rinkinys, reglamentuojantis, kokius žymenis galima įtraukti į dokumentą, kad būtų galima lengviau suvokti ir apdoroti jo informaciją.
@@ -28,63 +21,63 @@
 
 ## Žymėjimo kalbos ir serializacijos formatai
 
-* [RUNOFF][wiki:runoff], 1964
-    Viena iš pirmųjų plačiai naudotų teksto formatavimo programų CTSS operacinei sistemai
+* [RUNOFF][wiki:runoff], 1964  
+    Viena iš pirmųjų plačiai naudotų teksto formatavimo programų CTSS operacinei sistemai  
   * [roff][wiki:roff], 1970
-    Pirmoji teksto formatavimo kompiuterinė programa Unix'ui. Multics'o teksto formatavimo programos runoff versija. CTSS'o programos *RUNOFF* palikuonė. Dokumentų apdorojimo sistemų *nroff* ir *troff* pirmtakė
-    [*Puslapio kodas*][page:roff]
-    * [troff][wiki:troff], 1971
-    "Typesetter roff" - roff su teksto atvaizdavimo komandomis. Didelis komopnentas dokumentų apdoprojimo sistemos, sukurtos Bell Labs Unix operacinei sistemai.
-    [man][wiki:man] puslapių formatas, 1971
-* [TeX][wiki:tex], 1978
-    Typesetting system, designed with two main goals in mind: (1) to allow anybody to produce high-quality books with minimal effort, and (2) to provide a system that would give exactly the same results on all computers, at any point in time
-  * [LaTeX][wiki:latex], 1984
-    A software system for document preparation. The original vision of LaTeX is to insulate the user from typographical decisions — a useful approach for submitting e.g. articles for a scientific journal.
-    [*Puslapio kodas*][page:latex], [*kodas iš Wikipedijos*][wiki-page:latex]
-  * [ConTeXt][wiki:context], 1991
-    A general-purpose document processor. A typography and typesetting system meant to provide users easy and consistent access to advanced typographical control—important for general-purpose typesetting tasks.
-    [*Puslapio kodas*][page:context], [*kodas iš Wikipedijos*][wiki-page:context]
-* [Scribe][wiki:scribe], 1978
-    Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]
-    [Douglas Crockfordas apie Scribe][cite:crock]
-    [*Scribe'o specifikacija*][doc:scribe]
-    [*Kodo pavyzdžiai*][sample:scribe], [*puslapio kodas*][page:scribe]
-  * [GNU Texinfo][wiki:texinfo], 1984
-      Teksto rinkimo (typesetting) sintaksė, naudojama internetinei ir spausdintinei dokumentacijai kurti. Sintaksė primena Scribe. Grindžiama Emacs pagalbos žinynu Info (man failais su hypertext nuorodomis) – bei TeX.
-      [*Puslapio kodas*][page:texinfo]
-* [SCRIPT][wiki:script], 1968+
-    IBM teksto formatavimo procesorius
-  * [GML][wiki:gml], 1969
-      Macros'ų rinkinys, įdiegiantis ketinimais pagrįstas (procedūrines) žymėjimo žymes, skirtas IBM teksto formatavimo procesoriui SCRIPT.
-      [*Kodo pavyzdys*][sample:gml]
-    * [SGML][wiki:sgml], 1986
-        Dokumentų žymėjimo kalbų kūrimo standartas.
-      * [HTML], 1991
-        Standartinė dokumentų, skirtų atvaizduoti naršyklėse, žymėjimo kalba.
-      * [DocBook][wiki:docbook], 1991
-        Semantinė kalba techninei dokumentacijai žymėti. Leidžia kurti dokumentus nepriklausomai nuo atvaizdavimo būdo nustatant loginę turinio struktūrą; turinys vėliau gali būti publikuotas įvairiais formatais.
-      * [LinuxDoc][wiki:linuxdoc], 1994
-        SGML DTD'as, panašus į DocBook'ą. Naudojamas [LDP][wiki:ldp]
-      * [XML][wiki:xml], 1996
-        Bendrosios paskirties kalba ir serializacijos formatas. Griežtesnis SGML'o poaibis
-        * [XHTML][wiki:xhtml], 2000
-          Visavertė dokumentų žymėjimo kalba. XML'o pritaikymas HTML'ui.
-        * [XAML][wiki:xaml], 2008
-          Deklaratyvi, XML'u grindžiama kalba, sukurta Microsofto korporacijoje struktūrinių reikšmių ir objektų inicializavimui.
-          [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]
-* [S-expressions][wiki:s-exp], 1997
-    Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).
-    [*Puslapio kodas*][page:s-exp]
+    Pirmoji teksto formatavimo kompiuterinė programa Unix'ui. Multics'o teksto formatavimo programos runoff versija. CTSS'o programos *RUNOFF* palikuonė. Dokumentų apdorojimo sistemų *nroff* ir *troff* pirmtakė  
+    [*Puslapio kodas*][page:roff]  
+    * [troff][wiki:troff], 1971  
+    "Typesetter roff" - roff su teksto atvaizdavimo komandomis. Didelis komopnentas dokumentų apdoprojimo sistemos, sukurtos Bell Labs Unix operacinei sistemai.  
+    [man][wiki:man] puslapių formatas, 1971  
+* [TeX][wiki:tex], 1978  
+    Typesetting system, designed with two main goals in mind: (1) to allow anybody to produce high-quality books with minimal effort, and (2) to provide a system that would give exactly the same results on all computers, at any point in time  
+  * [LaTeX][wiki:latex], 1984  
+    A software system for document preparation. The original vision of LaTeX is to insulate the user from typographical decisions — a useful approach for submitting e.g. articles for a scientific journal.  
+    [*Puslapio kodas*][page:latex], [*kodas iš Wikipedijos*][wiki-page:latex]  
+  * [ConTeXt][wiki:context], 1991  
+    A general-purpose document processor. A typography and typesetting system meant to provide users easy and consistent access to advanced typographical control—important for general-purpose typesetting tasks.  
+    [*Puslapio kodas*][page:context], [*kodas iš Wikipedijos*][wiki-page:context]  
+* [Scribe][wiki:scribe], 1978  
+    Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]  
+    [Douglas Crockfordas apie Scribe][cite:crock]  
+    [*Scribe'o specifikacija*][doc:scribe]  
+    [*Kodo pavyzdžiai*][sample:scribe], [*puslapio kodas*][page:scribe]  
+  * [GNU Texinfo][wiki:texinfo], 1984  
+      Teksto rinkimo (typesetting) sintaksė, naudojama internetinei ir spausdintinei dokumentacijai kurti. Sintaksė primena Scribe. Grindžiama Emacs pagalbos žinynu Info (man failais su hypertext nuorodomis) – bei TeX.  
+      [*Puslapio kodas*][page:texinfo]  
+* [SCRIPT][wiki:script], 1968+  
+    IBM teksto formatavimo procesorius  
+  * [GML][wiki:gml], 1969  
+      Macros'ų rinkinys, įdiegiantis ketinimais pagrįstas (procedūrines) žymėjimo žymes, skirtas IBM teksto formatavimo procesoriui SCRIPT.  
+      [*Kodo pavyzdys*][sample:gml]  
+    * [SGML][wiki:sgml], 1986  
+        Dokumentų žymėjimo kalbų kūrimo standartas.  
+      * [HTML], 1991  
+        Standartinė dokumentų, skirtų atvaizduoti naršyklėse, žymėjimo kalba.  
+      * [DocBook][wiki:docbook], 1991  
+        Semantinė kalba techninei dokumentacijai žymėti. Leidžia kurti dokumentus nepriklausomai nuo atvaizdavimo būdo nustatant loginę turinio struktūrą; turinys vėliau gali būti publikuotas įvairiais formatais.  
+      * [LinuxDoc][wiki:linuxdoc], 1994  
+        SGML DTD'as, panašus į DocBook'ą. Naudojamas [LDP][wiki:ldp]  
+      * [XML][wiki:xml], 1996  
+        Bendrosios paskirties kalba ir serializacijos formatas. Griežtesnis SGML'o poaibis  
+        * [XHTML][wiki:xhtml], 2000  
+          Visavertė dokumentų žymėjimo kalba. XML'o pritaikymas HTML'ui.  
+        * [XAML][wiki:xaml], 2008  
+          Deklaratyvi, XML'u grindžiama kalba, sukurta Microsofto korporacijoje struktūrinių reikšmių ir objektų inicializavimui.  
+          [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]  
+* [S-expressions][wiki:s-exp], 1997  
+    Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
+    [*Puslapio kodas*][page:s-exp]  
 
 Modernios žymėjimo kalbos
 
-* [QML][wiki:qml], 2009
-    A user interface markup language
-    [*Puslapio kodas*][page:qml]
-* [EDN][wiki:edn], 2007
-    Extensible Data Notation.
-* [XUPL][home:xupl], 2011
-    Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.
+* [QML][wiki:qml], 2009  
+    A user interface markup language  
+    [*Puslapio kodas*][page:qml]  
+* [EDN][wiki:edn], 2007  
+    Extensible Data Notation.  
+* [XUPL][home:xupl], 2011  
+    Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.  
 
 [Serializacijos formatų palyginimas](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats)
 
@@ -146,7 +139,6 @@ Kita
 [wiki:xhtml]: <https://en.wikipedia.org/wiki/XHTML>
 [wiki:xml]: <https://en.wikipedia.org/wiki/XML>
 
-```
 *[RUNOFF]: RUNOFF, 1964
 *[roff]: roff, 1970
 *[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+
@@ -174,5 +166,6 @@ Kita
 *[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997
 *[QML]: Qt Modeling Language, 2009
 *[EDN]: Extensible Data Notation, 2007
-```
+*[XUPL]: Extensible UP(?) Language
+
 [Pradžia](../index.md)
