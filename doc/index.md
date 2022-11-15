@@ -139,33 +139,35 @@ Kita
 [wiki:xhtml]: <https://en.wikipedia.org/wiki/XHTML>
 [wiki:xml]: <https://en.wikipedia.org/wiki/XML>
 
-*[RUNOFF]: RUNOFF, 1964
-*[roff]: roff, 1970
-*[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+
-*[Multics]: Multiplexed Information and Computing Service – operacinė paskirstyto laiko sistema, padariusi įtaką OS raidai. 1969+
-*[runoff]: CTSS'o programos RUNOFF variantas Mutics'e, ~1969
-*[CTSS]: Compatible Time-Sharing System – pirmoji bendrosios paskirties laiko paskirtsymo operacinė sistema. 1961
-*[troff]: "Typesetter roff" (roff su teksto atvaizdavimo komandomis), 1971
-*[man]: Unix manual, 1971
-*[Scribe]: Scribe, 1978
-*[TeX]: TeX, 1978
-*[LaTeX]: LaTeX, 1984
-*[ConTeXt]: ConTeXt, 1991
-*[Texinfo]: GNU Texinfo, 1984
-*[GML]: Generalized Markup Language, 1969
-*[IBM]: International Business Machines Corporation
-*[SCRIPT]: IBM'o teksto apdorojimo procesorius ir jo žymėjimo kalba, 1968+
-*[SGML]: Standard Generalized Markup Language, 1986
-*[DocBook]: Document Book – semantinė kalba techninei dokumentacijai žymėti, 1991
-*[LinuxDoc]: Linux'o dokumentas, 1994
-*[DTD]: Document type definition – dokumento tipo apibrėžimas
-*[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas
-*[XML]: Extensible Markup Language, 1996
-*[XHTML]: Extensible HyperText Markup Language, 2000
-*[XAML]: Extensible Application Markup Language, 2008
-*[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997
-*[QML]: Qt Modeling Language, 2009
-*[EDN]: Extensible Data Notation, 2007
-*[XUPL]: Extensible UP(?) Language
+<!-- Abreviatūros -->
+
+*[RUNOFF]: RUNOFF, 1964  
+*[roff]: roff, 1970  
+*[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+  
+*[Multics]: Multiplexed Information and Computing Service – operacinė paskirstyto laiko sistema, padariusi įtaką OS raidai. 1969+  
+*[runoff]: CTSS'o programos RUNOFF variantas Mutics'e, ~1969  
+*[CTSS]: Compatible Time-Sharing System – pirmoji bendrosios paskirties laiko paskirtsymo operacinė sistema. 1961  
+*[troff]: "Typesetter roff" (roff su teksto atvaizdavimo komandomis), 1971  
+*[man]: Unix manual, 1971  
+*[Scribe]: Scribe, 1978  
+*[TeX]: TeX, 1978  
+*[LaTeX]: LaTeX, 1984  
+*[ConTeXt]: ConTeXt, 1991  
+*[Texinfo]: GNU Texinfo, 1984  
+*[GML]: Generalized Markup Language, 1969  
+*[IBM]: International Business Machines Corporation  
+*[SCRIPT]: IBM'o teksto apdorojimo procesorius ir jo žymėjimo kalba, 1968+  
+*[SGML]: Standard Generalized Markup Language, 1986  
+*[DocBook]: Document Book – semantinė kalba techninei dokumentacijai žymėti, 1991  
+*[LinuxDoc]: Linux'o dokumentas, 1994  
+*[DTD]: Document type definition – dokumento tipo apibrėžimas  
+*[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas  
+*[XML]: Extensible Markup Language, 1996  
+*[XHTML]: Extensible HyperText Markup Language, 2000  
+*[XAML]: Extensible Application Markup Language, 2008  
+*[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997  
+*[QML]: Qt Modeling Language, 2009  
+*[EDN]: Extensible Data Notation, 2007  
+*[XUPL]: Extensible UP(?) Language  
 
 [Pradžia](../index.md)
