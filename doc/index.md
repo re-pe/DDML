@@ -68,16 +68,14 @@
 * [S-expressions][wiki:s-exp], 1997  
     Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
     [*Puslapio kodas*][page:s-exp]  
-
-Modernios žymėjimo kalbos
-
-* [QML][wiki:qml], 2009  
-    A user interface markup language  
-    [*Puslapio kodas*][page:qml]  
-* [EDN][wiki:edn], 2007  
-    Extensible Data Notation.  
-* [XUPL][home:xupl], 2011  
-    Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.  
+* [JSON][wiki:json], 2001  
+    Language-independent open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays (or other serializable values). It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.
+  * [EDN][wiki:edn], 2007  
+      Clojure programavimo kalbos poaibis, sukurtas duomenų paiskeitimo formatas. Gali būti naudojams serializuoti ir išserializuoti Clojure duomenų struktūras.  
+      [*Kodo pavyzdys*][sample:edn], [*puslapio kodas 1*][page:edn-data], [*puslapio kodas 2*][page:edn-prog]  
+  * [QML][wiki:qml], 2009  
+      Vartotojo sąsajos žymėjimo kalba. Deklaratyvi kalba (panaši į CSS'ą ir JSON'ą), skirta kurti programas, kuriose vartotojos sąsaja yra svarbiausia. Imperatyviniams programos daliai gali būti įterpiamas JavaScript kodas.  
+      [*Puslapio kodas*][page:qml]  
 
 [Serializacijos formatų palyginimas](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats)
 
@@ -98,6 +96,8 @@ Kita
 [doc:scribe]: <pdf/scribe.pdf>
 [home:xupl]: <https://github.com/uplang/xupl/wiki>
 [page:context]: <page/page-context.md>
+[page:edn-data]: <page/page-edn-data.md>
+[page:edn-prog]: <page/page-edn-prog.md>
 [page:latex]: <page/page-latex.md>
 [page:qml]: <page/page-qml.md>
 [page:roff]: <page/page-roff.md>
@@ -105,6 +105,7 @@ Kita
 [page:scribe]: <page/page-scribe.md>
 [page:kdl+scribe]: <page/page-kdl+scribe.md>
 [page:texinfo]: <page/page-texinfo.md>
+[sample:edn]: <misc/sample-edn.md>
 [sample:gml]: <misc/sample-gml.md>
 [sample:scribe]: <misc/sample-scribe.md>
 [ui-sample:xaml]: <data-series/ui-data-xaml.md>
@@ -117,6 +118,7 @@ Kita
 [wiki:edn]: <https://en.wikipedia.org/wiki/Clojure#Extensible_Data_Notation>
 [wiki:genml]: <https://en.wikipedia.org/wiki/General-purpose_markup_language>
 [wiki:gml]: <https://en.wikipedia.org/wiki/IBM_Generalized_Markup_Language>
+[wiki:json]: <https://en.wikipedia.org/wiki/JSON>
 [wiki:latex]: <https://en.wikipedia.org/wiki/LaTeX>
 [wiki:ldp]: <https://en.wikipedia.org/wiki/Linux_Documentation_Project>
 [wiki:linuxdoc]: <https://en.wikipedia.org/wiki/LinuxDoc>
@@ -164,6 +166,8 @@ Kita
 *[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas  
 *[XML]: Extensible Markup Language, 1996  
 *[XHTML]: Extensible HyperText Markup Language, 2000  
+*[JSON]: JavaScript Object Notation, 2000  
+*[EDN]: Extensible Data Notation, 2007  
 *[XAML]: Extensible Application Markup Language, 2008  
 *[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997  
 *[QML]: Qt Modeling Language, 2009  
