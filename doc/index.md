@@ -14,15 +14,17 @@
 
 Žmogiškos žymėjimo kalbos – tai žmogui lengvai perskaitomos (*human readable*) sistemos, saugančios informaciją tekstinio dokumento pavidalu.
 
-* [Bendros paskirties žymėjimo kalbos][wiki:genml] – tai žymėjimo kalbos, naudojamos daugiau nei vienam tikslui ar atvejui. Dažnai šiomis kalbomis grindžiamos kitos, labiau specializuotos konkrečios srities žymėjimo kalbos. Pavyzdžiui, HTML 5 ir ankstesnės HTML standarto versijos yra konkrečios srities žymėjimo kalbos, skirtos tinklalapiams kurti, ir yra grindžiamos SGML – bendrosios paskirties žymėjimo kalbos – sintakse.
+* [Bendros paskirties žymėjimo kalbos][wiki:genml] – tai žymėjimo kalbos, naudojamos daugiau nei vienam tikslui ar atvejui. Dažnai šiomis kalbomis          grindžiamos kitos, labiau specializuotos konkrečios srities žymėjimo kalbos. Pavyzdžiui, HTML 5 ir ankstesnės HTML standarto versijos yra konkrečios srities žymėjimo kalbos, skirtos tinklalapiams kurti, ir yra grindžiamos SGML – bendrosios paskirties žymėjimo kalbos – sintakse.
 
 * [Serializacijos formatai][wiki:serial] – tai taisyklių rinkiniai, apibrėžiantys duomenų struktūrų arba objektų būsenų pavidalus, tinkamus įrašyti saugojimo įrenginiuose ar perduoti tinklais tam, kad vėliau tas duomenų struktūras ar objektus būtų galima atkurti.
   
     [Serializacijos formatų palyginimas][wiki:serial-comp]
 
 * [Dokumentų žymėjimo kalbos][wiki:docml] – tai žymėjimo kalbos, naudojamos valdyti dokumento struktūrai, formatavimui, sąryšiams tarp jo dalių arba papildyti jį žymėmis, kad būtų lengviau jį automatizuotai apdoroti ar atvaizduoti. Dokumentų žymėjimo kalbos nurodo, kokios žymės turi būti įterpiamos ir kaip jos turi būti derinamos su dokumento turiniu, kad žmonėms ir kompiuterių programoms būtų lengviau juo naudotis. Tokio žymėjimo idėja ir terminija išsivystė iš popierinių rankraščių žymėjimo (t. y. redagavimo instrukcijų) tradicijos, kai redaguojami rankraščiai buvo žymimi raudonu rašikliu arba mėlynu pieštuku.
-  * [Visavertės](index-full.md) – tinkamos visai puslapio struktūrai, taip pat ir nematomais elementais, aprašyti. Dažnai tam tikslui naudojamos bendros paskirties žymėjimo kalbos
-  * [Paprastos](index-lightweight.md) – tinkamos aprašyti tik dažniausiai naudojamiems vizualianiams elementams
+  
+  * Visavertės dokumentų aprašymo kalbos tinka visai puslapio struktūrai, taip pat ir nematomiems jo elementams, aprašyti. Dažnai tam tikslui pritaikomos bendros paskirties žymėjimo kalbos).
+
+  * [Paprastos (lengvosios) žymėjimo kalbos][wiki:lwml] turi tik žymes, skirtas dažniausiai naudojamiems vizualiniams puslapio elementams aprašyti.
 
 ## Žymėjimo kalbos ir serializacijos formatai
 
@@ -45,6 +47,7 @@
 * [Scribe][wiki:scribe], 1978
     Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]
     [Douglas Crockfordas apie Scribe][cite:crock]
+    [*Scribe'o specifikacija*][doc:scribe]
     [*Kodo pavyzdžiai*][sample:scribe], [*puslapio kodas*][page:scribe]
   * [GNU Texinfo][wiki:texinfo], 1984
       Teksto rinkimo (typesetting) sintaksė, naudojama internetinei ir spausdintinei dokumentacijai kurti. Sintaksė primena Scribe. Grindžiama Emacs pagalbos žinynu Info (man failais su hypertext nuorodomis) – bei TeX.
@@ -71,9 +74,9 @@
           [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]
 * [S-expressions][wiki:s-exp], 1997
     Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).
-    [*Puslapio kodas*][page:s-exp] – 
+    [*Puslapio kodas*][page:s-exp]
 
-Kita
+Modernios žymėjimo kalbos
 
 * [QML][wiki:qml], 2009
     A user interface markup language
@@ -94,7 +97,12 @@ Kita
 * [YAML](https://yaml.org/spec/1.2.2/)
 * [SDL](https://sdlang.org/)
 
+Kita
+
+* [*KDL + Scribe*][page:kdl+scribe] – galimo KDL ir Scribe kalbų hibrido pavyzdys
+
 [cite:crock]: <https://nofluffjuststuff.com/blog/douglas_crockford/2007/06/scribe>
+[doc:scribe]: <pdf/scribe.pdf>
 [home:xupl]: <https://github.com/uplang/xupl/wiki>
 [page:context]: <page/page-context.md>
 [page:latex]: <page/page-latex.md>
@@ -102,6 +110,7 @@ Kita
 [page:roff]: <page/page-roff.md>
 [page:s-exp]: <page/page-sexp.md>
 [page:scribe]: <page/page-scribe.md>
+[page:kdl+scribe]: <page/page-kdl+scribe.md>
 [page:texinfo]: <page/page-texinfo.md>
 [sample:gml]: <misc/sample-gml.md>
 [sample:scribe]: <misc/sample-scribe.md>
@@ -118,6 +127,7 @@ Kita
 [wiki:latex]: <https://en.wikipedia.org/wiki/LaTeX>
 [wiki:ldp]: <https://en.wikipedia.org/wiki/Linux_Documentation_Project>
 [wiki:linuxdoc]: <https://en.wikipedia.org/wiki/LinuxDoc>
+[wiki:lwml]: <https://en.wikipedia.org/wiki/Lightweight_markup_language>
 [wiki:man]: <https://en.wikipedia.org/wiki/Man_page>
 [wiki:ml]: <https://en.wikipedia.org/wiki/Markup_language>
 [wiki:qml]: <https://en.wikipedia.org/wiki/QML>
@@ -136,6 +146,7 @@ Kita
 [wiki:xhtml]: <https://en.wikipedia.org/wiki/XHTML>
 [wiki:xml]: <https://en.wikipedia.org/wiki/XML>
 
+```
 *[RUNOFF]: RUNOFF, 1964
 *[roff]: roff, 1970
 *[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+
@@ -163,5 +174,5 @@ Kita
 *[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997
 *[QML]: Qt Modeling Language, 2009
 *[EDN]: Extensible Data Notation, 2007
-
+```
 [Pradžia](../index.md)
