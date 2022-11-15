@@ -3,7 +3,7 @@
 
 # Scribe
 
-Taip galėtų atrodyti puslapio aprašymas Scribe žymėjimo kalba. Šis kodas nebūtinai atitinka Scribe kalbos taisykles, ir yra tik bandymas HTML kodą perteikti Scribe sintakse.
+Taip galėtų atrodyti puslapio aprašymas Scribe žymėjimo kalba. Šis kodas nebūtinai visiškai atitinka Scribe kalbos taisykles, ir yra tik bandymas HTML kodą perteikti Scribe sintakse.
 
 [Douglas Crockford apie Scribe](https://nofluffjuststuff.com/blog/douglas_crockford/2007/06/scribe)
 
