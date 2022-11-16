@@ -74,13 +74,22 @@
     Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
     [*Puslapio kodas*][page:s-exp]  
 * [JSON][wiki:json], 2001  
-    Language-independent open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays (or other serializable values). It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.
+    Atviras standartinis nuo programavimo kalbų nepriklausomas failų ir duomenų mainų formatas, kuriame naudojamas žmogui įskaitomas tekstas duomenų objektams, sudarytiems iš atributų ir verčių porų bei masyvų (arba kitų serijalizuojamų verčių), saugoti ir perduoti. Tai įprastas duomenų formatas, įvairiai naudojamas elektroniniams duomenų mainams, įskaitant mainus tarp žiniatinklio programų ir serverių.  
+    [*Tinklalapis*][home:json]  
+    [*Puslapio kodas (objektais)*][page:json-object]  
   * [EDN][wiki:edn], 2007  
       Clojure programavimo kalbos poaibis, sukurtas duomenų paiskeitimo formatas. Gali būti naudojams serializuoti ir išserializuoti Clojure duomenų struktūras.  
       [*Kodo pavyzdys*][sample:edn], [*puslapio kodas 1*][page:edn-data], [*puslapio kodas 2*][page:edn-prog]  
+  * [JsonML][wiki:jsonml], 2008  
+    Paprastoji žymėjimo kalba, naudojama nustatyti atitikmenis tarp XML (Extensible Markup Language) ir JSON (JavaScript Object Notation). Ji konvertuoja XML dokumentą arba jo fragmentą į JSON duomenų struktūrą, kad būtų lengviau naudoti JavaScript'o aplinkoje, pvz., žiniatinklio naršyklėje, ir leidžia manipuliuoti XML duomenimis be papildomų XML parsinimo kaštų.  
+    [*Tinklalapis*][home:jsonml]  
+    [*Kodo pavyzdys*][sample:jsonml], [*puslapio kodas*][page:jsonml]  
   * [QML][wiki:qml], 2009  
       Vartotojo sąsajos žymėjimo kalba. Deklaratyvi kalba (panaši į CSS'ą ir JSON'ą), skirta kurti programas, kuriose vartotojos sąsaja yra svarbiausia. Imperatyviniams programos daliai gali būti įterpiamas JavaScript kodas.  
       [*Puslapio kodas*][page:qml]  
+  * [JSON5][home:json5], 2012  
+      Populiaraus JSON failų formato plėtinys, kuriuo siekiama, kad jį būtų lengviau rašyti ir tvarkyti rankiniu būdu (pvz., konfigūracijos failus). Jis neskirtas naudoti komunikacijai tarp mašinų.  
+      [*Puslapio kodas (objektais)*][page:json5-object]
 
 [Serializacijos formatų palyginimas](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats)
 
@@ -101,9 +110,15 @@ Kita
 [doc:scribe]: <pdf/scribe.pdf>
 [github:xupl]: <https://github.com/uplang/xupl>
 [github:wiki:xupl]: <https://github.com/uplang/xupl/wiki>
+[home:json]: <https://www.json.org/json-en.html>
+[home:json5]: <https://json5.org>
+[home:jsonml]: <http://www.jsonml.org>
 [page:context]: <page/page-context.md>
 [page:edn-data]: <page/page-edn-data.md>
 [page:edn-prog]: <page/page-edn-prog.md>
+[page:json-object]: <page/page-json-object.md>
+[page:json5-object]: <page/page-json5-object.md>
+[page:jsonml]: <page/page-json-array.md>
 [page:kdl+scribe]: <page/page-kdl+scribe.md>
 [page:latex]: <page/page-latex.md>
 [page:qml]: <page/page-qml.md>
@@ -113,6 +128,7 @@ Kita
 [page:texinfo]: <page/page-texinfo.md>
 [page:xupl]: <page/page-xupl.md>
 [sample:edn]: <misc/sample-edn.md>
+[sample:jsonml]: <misc/sample-jsonml.md>
 [sample:gml]: <misc/sample-gml.md>
 [sample:scribe]: <misc/sample-scribe.md>
 [sample:sox]: <misc/sample-sox.md>
@@ -127,6 +143,7 @@ Kita
 [wiki:genml]: <https://en.wikipedia.org/wiki/General-purpose_markup_language>
 [wiki:gml]: <https://en.wikipedia.org/wiki/IBM_Generalized_Markup_Language>
 [wiki:json]: <https://en.wikipedia.org/wiki/JSON>
+[wiki:jsonml]: <https://en.wikipedia.org/wiki/JsonML>
 [wiki:latex]: <https://en.wikipedia.org/wiki/LaTeX>
 [wiki:ldp]: <https://en.wikipedia.org/wiki/Linux_Documentation_Project>
 [wiki:linuxdoc]: <https://en.wikipedia.org/wiki/LinuxDoc>
@@ -180,8 +197,10 @@ Kita
 *[JSON]: JavaScript Object Notation, 2000  
 *[SOX]: Simple Outline XML, 2002  
 *[EDN]: Extensible Data Notation, 2007  
+*[JsonML]: JSON Markup Language, 2008  
 *[XAML]: Extensible Application Markup Language, 2008  
 *[QML]: Qt Modeling Language, 2009  
 *[XUPL]: Extensible UP(?) Language, 2012  
+*[JSON5]: JSON5 Data Interchange Format - JSON for Humans, 2012
 
 [Pradžia](../index.md)
