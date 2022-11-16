@@ -65,6 +65,10 @@
         * [XAML][wiki:xaml], 2008  
           Deklaratyvi, XML'u grindžiama kalba, sukurta Microsofto korporacijoje struktūrinių reikšmių ir objektų inicializavimui.  
           [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]  
+        * [XUPL][wiki:xupl], 2011  
+          Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.  
+          [*GitHub repozitorija*][github:xupl], [*wiki's*][github:wiki:xupl], [*puslapio kodas*][page:xupl]  
+
 * [S-expressions][wiki:s-exp], 1997  
     Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
     [*Puslapio kodas*][page:s-exp]  
@@ -94,17 +98,19 @@ Kita
 
 [cite:crock]: <https://nofluffjuststuff.com/blog/douglas_crockford/2007/06/scribe>
 [doc:scribe]: <pdf/scribe.pdf>
-[home:xupl]: <https://github.com/uplang/xupl/wiki>
+[github:xupl]: <https://github.com/uplang/xupl>
+[github:wiki:xupl]: <https://github.com/uplang/xupl/wiki>
 [page:context]: <page/page-context.md>
 [page:edn-data]: <page/page-edn-data.md>
 [page:edn-prog]: <page/page-edn-prog.md>
+[page:kdl+scribe]: <page/page-kdl+scribe.md>
 [page:latex]: <page/page-latex.md>
 [page:qml]: <page/page-qml.md>
 [page:roff]: <page/page-roff.md>
 [page:s-exp]: <page/page-sexp.md>
 [page:scribe]: <page/page-scribe.md>
-[page:kdl+scribe]: <page/page-kdl+scribe.md>
 [page:texinfo]: <page/page-texinfo.md>
+[page:xupl]: <page/page-xupl.md>
 [sample:edn]: <misc/sample-edn.md>
 [sample:gml]: <misc/sample-gml.md>
 [sample:scribe]: <misc/sample-scribe.md>
@@ -140,38 +146,38 @@ Kita
 [wiki:xaml]: <https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language>
 [wiki:xhtml]: <https://en.wikipedia.org/wiki/XHTML>
 [wiki:xml]: <https://en.wikipedia.org/wiki/XML>
+[wiki:xupl]: <https://en.wikipedia.org/wiki/Xupl>
 
 <!-- Abreviatūros -->
 
-*[RUNOFF]: RUNOFF, 1964  
-*[roff]: roff, 1970  
-*[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+  
+*[CTSS]: Compatible Time-Sharing System – pirmoji bendrosios paskirties laiko paskirtsymo operacinė sistema. 1961  
+*[RUNOFF]: RUNOFF = teksto formatavimo programa CTSS operacinei sistemai. 1964  
+*[SCRIPT]: IBM'o teksto apdorojimo procesorius ir jo žymėjimo kalba, 1968+  
+*[IBM]: International Business Machines Corporation  
+*[GML]: Generalized Markup Language – makrosų rinkinys IBM teksto formatavimo procesoriui SCRIPT. 1969  
 *[Multics]: Multiplexed Information and Computing Service – operacinė paskirstyto laiko sistema, padariusi įtaką OS raidai. 1969+  
 *[runoff]: CTSS'o programos RUNOFF variantas Mutics'e, ~1969  
-*[CTSS]: Compatible Time-Sharing System – pirmoji bendrosios paskirties laiko paskirtsymo operacinė sistema. 1961  
+*[Unix]: Daugiaužduotinių ir daugiafunkcinių kompiuterių operacinių sistemų šeima. 1969+  
+*[roff]: roff - teksto formatavimo kompiuterinė programa Unix'ui. 1970  
 *[troff]: "Typesetter roff" (roff su teksto atvaizdavimo komandomis), 1971  
 *[man]: Unix manual, 1971  
-*[Scribe]: Scribe, 1978  
-*[TeX]: TeX, 1978  
-*[LaTeX]: LaTeX, 1984  
-*[ConTeXt]: ConTeXt, 1991  
+*[Scribe]: Scribe – žymėjimo kalba ir teksto apdorojimo sistema, 1978  
+*[TeX]: TeX – skaitmeninė teksto rinkimo sistema. 1978  
+*[LaTeX]: LaTeX – skaitmeninė dokumentų rengimo sistema. 1984  
 *[Texinfo]: GNU Texinfo, 1984  
-*[GML]: Generalized Markup Language, 1969  
-*[IBM]: International Business Machines Corporation  
-*[SCRIPT]: IBM'o teksto apdorojimo procesorius ir jo žymėjimo kalba, 1968+  
 *[SGML]: Standard Generalized Markup Language, 1986  
-*[DocBook]: Document Book – semantinė kalba techninei dokumentacijai žymėti, 1991  
-*[LinuxDoc]: Linux'o dokumentas, 1994  
 *[DTD]: Document type definition – dokumento tipo apibrėžimas  
-*[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas  
+*[ConTeXt]: ConTeXt – bendros paskirties dokumentų rengimo sistema. 1991  
+*[DocBook]: Document Book – semantinė kalba techninei dokumentacijai žymėti, 1991  
+*[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas. 1992  
+*[LinuxDoc]: Linux'o dokumentas, 1994  
 *[XML]: Extensible Markup Language, 1996  
+*[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997  
 *[XHTML]: Extensible HyperText Markup Language, 2000  
 *[JSON]: JavaScript Object Notation, 2000  
 *[EDN]: Extensible Data Notation, 2007  
 *[XAML]: Extensible Application Markup Language, 2008  
-*[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997  
 *[QML]: Qt Modeling Language, 2009  
-*[EDN]: Extensible Data Notation, 2007  
-*[XUPL]: Extensible UP(?) Language  
+*[XUPL]: Extensible UP(?) Language, 2012  
 
 [Pradžia](../index.md)

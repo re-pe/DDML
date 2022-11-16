@@ -3,7 +3,7 @@
 
 # QML
 
-Pavyzdys paimtas iš KDL dokumentacijos
+QML'o sintaksė, pritaikyta web puslapiui aprašyti. Puslapio pavyzdys paimtas iš KDL dokumentacijos
 
 ```qml
 !doctype { html }
