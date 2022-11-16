@@ -15,9 +15,7 @@
 
 * [Dokumentų žymėjimo kalbos][wiki:docml] – tai žymėjimo kalbos, naudojamos valdyti dokumento struktūrai, formatavimui, sąryšiams tarp jo dalių arba papildyti jį žymėmis, kad būtų lengviau jį automatizuotai apdoroti ar atvaizduoti. Dokumentų žymėjimo kalbos nurodo, kokios žymės turi būti įterpiamos ir kaip jos turi būti derinamos su dokumento turiniu, kad žmonėms ir kompiuterių programoms būtų lengviau juo naudotis. Tokio žymėjimo idėja ir terminija išsivystė iš popierinių rankraščių žymėjimo (t. y. redagavimo instrukcijų) tradicijos, kai redaguojami rankraščiai buvo žymimi raudonu rašikliu arba mėlynu pieštuku.
   
-  * Visavertės dokumentų aprašymo kalbos tinka visai puslapio struktūrai, taip pat ir nematomiems jo elementams, aprašyti. Dažnai tam tikslui pritaikomos bendros paskirties žymėjimo kalbos).
-
-  * [Paprastos (lengvosios) žymėjimo kalbos][wiki:lwml] turi tik žymes, skirtas dažniausiai naudojamiems vizualiniams puslapio elementams aprašyti.
+* [Paprastosios (lengvosios) žymėjimo kalbos][wiki:lwml] turi tik žymes, skirtas dažniausiai naudojamiems puslapio ar duomenų medžio elementams aprašyti.
 
 ## Žymėjimo kalbos ir serializacijos formatai
 
@@ -62,6 +60,9 @@
         Bendrosios paskirties kalba ir serializacijos formatas. Griežtesnis SGML'o poaibis  
         * [XHTML][wiki:xhtml], 2000  
           Visavertė dokumentų žymėjimo kalba. XML'o pritaikymas HTML'ui.  
+        * [SOX][wiki:sox], 2002  
+          Glaudus būdas rašyti XML. Naudoja atitraukimą perteikti XML dokumento struktūrai, pašalindama uždarymo tagų poreikį.  
+          [*Kodo pavyzdys*][sample:sox]  
         * [XAML][wiki:xaml], 2008  
           Deklaratyvi, XML'u grindžiama kalba, sukurta Microsofto korporacijoje struktūrinių reikšmių ir objektų inicializavimui.  
           [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]  
@@ -114,6 +115,7 @@ Kita
 [sample:edn]: <misc/sample-edn.md>
 [sample:gml]: <misc/sample-gml.md>
 [sample:scribe]: <misc/sample-scribe.md>
+[sample:sox]: <misc/sample-sox.md>
 [ui-sample:xaml]: <data-series/ui-data-xaml.md>
 [wiki-page:context]: <page/wiki-context.md>
 [wiki-page:latex]: <page/wiki-latex.md>
@@ -140,6 +142,7 @@ Kita
 [wiki:serial]: <https://en.wikipedia.org/wiki/Serialization#Serialization_formats>
 [wiki:serial-comp]: <https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats>
 [wiki:sgml]: <https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language>
+[wiki:sox]: <https://en.wikipedia.org/wiki/Simple_Outline_XML>
 [wiki:tex]: <https://en.wikipedia.org/wiki/Texinfo>
 [wiki:texinfo]: <https://en.wikipedia.org/wiki/Texinfo>
 [wiki:troff]: <https://en.wikipedia.org/wiki/Roff_(software)>
@@ -175,6 +178,7 @@ Kita
 *[S-expressions]: S-expression (symbolic expression) – S-išraiškos, 1997  
 *[XHTML]: Extensible HyperText Markup Language, 2000  
 *[JSON]: JavaScript Object Notation, 2000  
+*[SOX]: Simple Outline XML, 2002  
 *[EDN]: Extensible Data Notation, 2007  
 *[XAML]: Extensible Application Markup Language, 2008  
 *[QML]: Qt Modeling Language, 2009  
