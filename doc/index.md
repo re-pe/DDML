@@ -35,14 +35,14 @@
 
   * [LaTeX][wiki:latex], 1984  
     A software system for document preparation. The original vision of LaTeX is to insulate the user from typographical decisions — a useful approach for submitting e.g. articles for a scientific journal.  
-    [*Puslapio kodas*][page:latex], [*kodas iš Wikipedijos*][wiki-page:latex]  
+    [*Puslapio kodas*][page:latex], [*kodas iš Wikipedijos*][page:wiki-latex]  
 
   * [ConTeXt][wiki:context], 1991  
     A general-purpose document processor. A typography and typesetting system meant to provide users easy and consistent access to advanced typographical control—important for general-purpose typesetting tasks.  
-    [*Puslapio kodas*][page:context], [*kodas iš Wikipedijos*][wiki-page:context]  
+    [*Puslapio kodas*][page:context], [*kodas iš Wikipedijos*][page:wiki-context]  
 
 * [Scribe][wiki:scribe], 1978  
-    Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]  
+  Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]  
     [Douglas Crockfordas apie Scribe][cite:crock]  
     [*Scribe'o specifikacija*][doc:scribe]  
     [*Kodo pavyzdžiai*][sample:scribe], [*puslapio kodas*][page:scribe]  
@@ -89,9 +89,19 @@
           Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.  
           [*GitHub repozitorija*][github:xupl], [*wiki's*][github:wiki:xupl], [*puslapio kodas*][page:xupl]  
 
+* [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values)
+  Formatai, naudojantys skirmaisiais ženklais atskirtas reikšmes dvimačiams duomenų masyvams saugoti. Reikšmės saugomos eilutėse, askirtos viena nuo kitos numatytais ženklais. Dažniausia naudojami ženklai – kablelis, tabuliacija, dvitaškis ir kabliataškis.
+  [*Rekomendacijos*](https://www.w3.org/TR/sparql11-results-csv-tsv/), 2009+
+
+  * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), 1972
+    [*Standartas*](https://datatracker.ietf.org/doc/html/rfc4180), 2005
+
+  * [TSV](https://en.wikipedia.org/wiki/Tab-separated_values), 1993
+    [*Standartas*](https://www.iana.org/assignments/media-types/text/tab-separated-values), 1993
+
 * [S-expressions][wiki:s-exp], 1997  
-    Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
-    [*Puslapio kodas*][page:s-exp]  
+  Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
+  [*Puslapio kodas*][page:s-exp]  
 
 * [JSON][wiki:json], 2001  
     Atviras standartinis nuo programavimo kalbų nepriklausomas failų ir duomenų mainų formatas, kuriame naudojamas žmogui įskaitomas tekstas duomenų objektams, sudarytiems iš atributų ir verčių porų bei masyvų (arba kitų serijalizuojamų verčių), saugoti ir perduoti. Tai įprastas duomenų formatas, įvairiai naudojamas elektroniniams duomenų mainams, įskaitant mainus tarp žiniatinklio programų ir serverių.  
@@ -117,9 +127,6 @@
 
 [Serializacijos formatų palyginimas](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats)
 
-* [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values)
-  * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
-  * [TSV](https://en.wikipedia.org/wiki/Tab-separated_values)
 * [JSON](https://www.json.org/json-en.html)
   * [JSON5](https://json5.org/)
 * [AXON](https://pyaxon.readthedocs.io/en/latest/)
@@ -151,6 +158,8 @@ Kita
 [page:s-exp]: <page/page-sexp.md>
 [page:scribe]: <page/page-scribe.md>
 [page:texinfo]: <page/page-texinfo.md>
+[page:wiki-context]: <page/wiki-context.md>
+[page:wiki-latex]: <page/wiki-latex.md>
 [page:xupl]: <page/page-xupl.md>
 [sample:edn]: <misc/sample-edn.md>
 [sample:jsonml]: <misc/sample-jsonml.md>
@@ -207,6 +216,9 @@ Kita
 *[roff]: roff - teksto formatavimo kompiuterinė programa Unix'ui. 1970  
 *[troff]: "Typesetter roff" (roff su teksto atvaizdavimo komandomis), 1971  
 *[man]: Unix manual, 1971  
+*[DSV]: Delimiter-Separated Values
+*[CSV]: Comma-Separated Values, 1972
+*[TSV]: Tab-Separated Values
 *[Scribe]: Scribe – žymėjimo kalba ir teksto apdorojimo sistema, 1978  
 *[TeX]: TeX – skaitmeninė teksto rinkimo sistema. 1978  
 *[LaTeX]: LaTeX – skaitmeninė dokumentų rengimo sistema. 1984  
