@@ -21,51 +21,70 @@
 
 * [RUNOFF][wiki:runoff], 1964  
     Viena iš pirmųjų plačiai naudotų teksto formatavimo programų CTSS operacinei sistemai  
+
   * [roff][wiki:roff], 1970
     Pirmoji teksto formatavimo kompiuterinė programa Unix'ui. Multics'o teksto formatavimo programos runoff versija. CTSS'o programos *RUNOFF* palikuonė. Dokumentų apdorojimo sistemų *nroff* ir *troff* pirmtakė  
     [*Puslapio kodas*][page:roff]  
+
     * [troff][wiki:troff], 1971  
     "Typesetter roff" - roff su teksto atvaizdavimo komandomis. Didelis komopnentas dokumentų apdoprojimo sistemos, sukurtos Bell Labs Unix operacinei sistemai.  
     [man][wiki:man] puslapių formatas, 1971  
+
 * [TeX][wiki:tex], 1978  
     Typesetting system, designed with two main goals in mind: (1) to allow anybody to produce high-quality books with minimal effort, and (2) to provide a system that would give exactly the same results on all computers, at any point in time  
+
   * [LaTeX][wiki:latex], 1984  
     A software system for document preparation. The original vision of LaTeX is to insulate the user from typographical decisions — a useful approach for submitting e.g. articles for a scientific journal.  
     [*Puslapio kodas*][page:latex], [*kodas iš Wikipedijos*][wiki-page:latex]  
+
   * [ConTeXt][wiki:context], 1991  
     A general-purpose document processor. A typography and typesetting system meant to provide users easy and consistent access to advanced typographical control—important for general-purpose typesetting tasks.  
     [*Puslapio kodas*][page:context], [*kodas iš Wikipedijos*][wiki-page:context]  
+
 * [Scribe][wiki:scribe], 1978  
     Žymėjimo kalba ir teksto apdorojimo sistema, kurioje pirmąkart panaudotas [aprašomasis žymėjimas][wiki:descr-markup]  
     [Douglas Crockfordas apie Scribe][cite:crock]  
     [*Scribe'o specifikacija*][doc:scribe]  
     [*Kodo pavyzdžiai*][sample:scribe], [*puslapio kodas*][page:scribe]  
+
   * [GNU Texinfo][wiki:texinfo], 1984  
-      Teksto rinkimo (typesetting) sintaksė, naudojama internetinei ir spausdintinei dokumentacijai kurti. Sintaksė primena Scribe. Grindžiama Emacs pagalbos žinynu Info (man failais su hypertext nuorodomis) – bei TeX.  
+    Teksto rinkimo (typesetting) sintaksė, naudojama internetinei ir spausdintinei dokumentacijai kurti. Sintaksė primena Scribe sintaksę. Grindžiama Emacs pagalbos žinynu Info (man failais su hypertext nuorodomis) bei TeX.  
       [*Puslapio kodas*][page:texinfo]  
+
 * [SCRIPT][wiki:script], 1968+  
     IBM teksto formatavimo procesorius  
+
   * [GML][wiki:gml], 1969  
       Macros'ų rinkinys, įdiegiantis ketinimais pagrįstas (procedūrines) žymėjimo žymes, skirtas IBM teksto formatavimo procesoriui SCRIPT.  
       [*Kodo pavyzdys*][sample:gml]  
+
     * [SGML][wiki:sgml], 1986  
         Dokumentų žymėjimo kalbų kūrimo standartas.  
-      * [HTML], 1991  
-        Standartinė dokumentų, skirtų atvaizduoti naršyklėse, žymėjimo kalba.  
+
       * [DocBook][wiki:docbook], 1991  
         Semantinė kalba techninei dokumentacijai žymėti. Leidžia kurti dokumentus nepriklausomai nuo atvaizdavimo būdo nustatant loginę turinio struktūrą; turinys vėliau gali būti publikuotas įvairiais formatais.  
+
+      * [HTML][wiki:html], 1993  
+        Standartinė dokumentų, skirtų atvaizduoti naršyklėse, žymėjimo kalba.  
+        [*Puslapio kodas*][page:html]  
+
       * [LinuxDoc][wiki:linuxdoc], 1994  
         SGML DTD'as, panašus į DocBook'ą. Naudojamas [LDP][wiki:ldp]  
+
       * [XML][wiki:xml], 1996  
         Bendrosios paskirties kalba ir serializacijos formatas. Griežtesnis SGML'o poaibis  
+
         * [XHTML][wiki:xhtml], 2000  
           Visavertė dokumentų žymėjimo kalba. XML'o pritaikymas HTML'ui.  
+
         * [SOX][wiki:sox], 2002  
           Glaudus būdas rašyti XML. Naudoja atitraukimą perteikti XML dokumento struktūrai, pašalindama uždarymo tagų poreikį.  
           [*Kodo pavyzdys*][sample:sox]  
+
         * [XAML][wiki:xaml], 2008  
           Deklaratyvi, XML'u grindžiama kalba, sukurta Microsofto korporacijoje struktūrinių reikšmių ir objektų inicializavimui.  
           [*Vartotojo sąsajos pavyzdys*][ui-sample:xaml]  
+
         * [XUPL][wiki:xupl], 2011  
           Žmogui įskaitomas duomenų formatas, sukurtas kaip struktūrinis XML ekvivalentas, išoriškai panašus į C stiliaus programavimo kalbas.  
           [*GitHub repozitorija*][github:xupl], [*wiki's*][github:wiki:xupl], [*puslapio kodas*][page:xupl]  
@@ -73,22 +92,27 @@
 * [S-expressions][wiki:s-exp], 1997  
     Sintaksė, pagrįsta Lisp S-išraiškomis, tačiau skirta ne programų kodo rašymui, o bendros paskirties duomenų saugojimui ir keitimuisi (panašiai kaip XML).  
     [*Puslapio kodas*][page:s-exp]  
+
 * [JSON][wiki:json], 2001  
     Atviras standartinis nuo programavimo kalbų nepriklausomas failų ir duomenų mainų formatas, kuriame naudojamas žmogui įskaitomas tekstas duomenų objektams, sudarytiems iš atributų ir verčių porų bei masyvų (arba kitų serijalizuojamų verčių), saugoti ir perduoti. Tai įprastas duomenų formatas, įvairiai naudojamas elektroniniams duomenų mainams, įskaitant mainus tarp žiniatinklio programų ir serverių.  
     [*Tinklalapis*][home:json]  
     [*Puslapio kodas (objektais)*][page:json-object]  
+
   * [EDN][wiki:edn], 2007  
       Clojure programavimo kalbos poaibis, sukurtas duomenų paiskeitimo formatas. Gali būti naudojams serializuoti ir išserializuoti Clojure duomenų struktūras.  
       [*Kodo pavyzdys*][sample:edn], [*puslapio kodas 1*][page:edn-data], [*puslapio kodas 2*][page:edn-prog]  
+
   * [JsonML][wiki:jsonml], 2008  
     Paprastoji žymėjimo kalba, naudojama nustatyti atitikmenis tarp XML (Extensible Markup Language) ir JSON (JavaScript Object Notation). Ji konvertuoja XML dokumentą arba jo fragmentą į JSON duomenų struktūrą, kad būtų lengviau naudoti JavaScript'o aplinkoje, pvz., žiniatinklio naršyklėje, ir leidžia manipuliuoti XML duomenimis be papildomų XML parsinimo kaštų.  
     [*Tinklalapis*][home:jsonml]  
     [*Kodo pavyzdys*][sample:jsonml], [*puslapio kodas*][page:jsonml]  
+
   * [QML][wiki:qml], 2009  
-      Vartotojo sąsajos žymėjimo kalba. Deklaratyvi kalba (panaši į CSS'ą ir JSON'ą), skirta kurti programas, kuriose vartotojos sąsaja yra svarbiausia. Imperatyviniams programos daliai gali būti įterpiamas JavaScript kodas.  
+    Vartotojo sąsajos žymėjimo kalba. Deklaratyvi kalba (panaši į CSS'ą ir JSON'ą), skirta kurti programoms, kuriose vartotojo sąsaja yra svarbiausia. Imperatyvinei programos daliai gali būti įterpiamas JavaScript kodas.  
       [*Puslapio kodas*][page:qml]  
+
   * [JSON5][home:json5], 2012  
-      Populiaraus JSON failų formato plėtinys, kuriuo siekiama, kad jį būtų lengviau rašyti ir tvarkyti rankiniu būdu (pvz., konfigūracijos failus). Jis neskirtas naudoti komunikacijai tarp mašinų.  
+    Populiaraus JSON failų formato plėtinys, kuriuo siekiama, kad JSON'as būtų suderintas ECMAScript'o 5.1 standartu ir jį būtų lengviau rašyti ir tvarkyti rankiniu būdu (pvz., konfigūracijos failus). Jis nėra skirtas naudoti komunikacijai tarp mašinų, tam reikalui turi būti naudojamas įpratinis JSOn'as.  
       [*Puslapio kodas (objektais)*][page:json5-object]
 
 [Serializacijos formatų palyginimas](https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats)
@@ -116,6 +140,7 @@ Kita
 [page:context]: <page/page-context.md>
 [page:edn-data]: <page/page-edn-data.md>
 [page:edn-prog]: <page/page-edn-prog.md>
+[page:html]: <page/page-html.md>
 [page:json-object]: <page/page-json-object.md>
 [page:json5-object]: <page/page-json5-object.md>
 [page:jsonml]: <page/page-json-array.md>
@@ -142,6 +167,7 @@ Kita
 [wiki:edn]: <https://en.wikipedia.org/wiki/Clojure#Extensible_Data_Notation>
 [wiki:genml]: <https://en.wikipedia.org/wiki/General-purpose_markup_language>
 [wiki:gml]: <https://en.wikipedia.org/wiki/IBM_Generalized_Markup_Language>
+[wiki:html]: <https://en.wikipedia.org/wiki/HTML>
 [wiki:json]: <https://en.wikipedia.org/wiki/JSON>
 [wiki:jsonml]: <https://en.wikipedia.org/wiki/JsonML>
 [wiki:latex]: <https://en.wikipedia.org/wiki/LaTeX>
@@ -189,6 +215,7 @@ Kita
 *[DTD]: Document type definition – dokumento tipo apibrėžimas  
 *[ConTeXt]: ConTeXt – bendros paskirties dokumentų rengimo sistema. 1991  
 *[DocBook]: Document Book – semantinė kalba techninei dokumentacijai žymėti, 1991  
+*[HTML]: HyperText Markup Language, 1993
 *[LDP]: Linux Documentation Project – Linuxo dokumentacijos projektas. 1992  
 *[LinuxDoc]: Linux'o dokumentas, 1994  
 *[XML]: Extensible Markup Language, 1996  
