@@ -1,6 +1,24 @@
-<!-- markdownlint-disable-next-line MD041 -->
-[Pradžia](../index.md)
+---
+title: Žymėjimo kalbos
+tags:
+  - vienas
+  - du
+  - trys
+created: 2022-12-04 21:45
+---
 
+<style>
+  .block-right {
+    text-align: right;
+  }
+  .bordered {
+    border: 1px solid;
+    padding: 0 0.5em;
+  }
+</style>
+
+[Pradžia](../README.md)
+<!-- markdownlint-disable-next-line MD025 -->
 # Žymėjimo kalbos
 
 [Žymėjimo kalbos][wiki:ml] – tai teksto kodavimo sistemos, sudarytos iš simbolių rinkinio, įterpiamo į tekstinį dokumentą ir koduojančio instrukcijas, skirtas perteikti dokumento saugomą informaciją kitose terpėse arba kitokiu pavidalu. Žymėjimo kalba – tai taisyklių rinkinys, reglamentuojantis, kokius žymenis galima įtraukti į dokumentą, kad būtų galima lengviau suvokti ir apdoroti jo informaciją.
@@ -137,6 +155,8 @@ Kita
 
 * [*KDL + Scribe*][page:kdl+scribe] – galimo KDL ir Scribe kalbų hibrido pavyzdys
 
+* [ ] Nuoroda[^1] :bulb:
+
 [cite:crock]: <https://nofluffjuststuff.com/blog/douglas_crockford/2007/06/scribe>
 [doc:scribe]: <pdf/scribe.pdf>
 [github:xupl]: <https://github.com/uplang/xupl>
@@ -167,8 +187,6 @@ Kita
 [sample:scribe]: <misc/sample-scribe.md>
 [sample:sox]: <misc/sample-sox.md>
 [ui-sample:xaml]: <data-series/ui-data-xaml.md>
-[wiki-page:context]: <page/wiki-context.md>
-[wiki-page:latex]: <page/wiki-latex.md>
 [wiki:context]: <https://en.wikipedia.org/wiki/ConTeXt>
 [wiki:descr-markup]: <https://en.wikipedia.org/wiki/Markup_language#Descriptive_markup>
 [wiki:docbook]: <https://en.wikipedia.org/wiki/DocBook>
@@ -243,3 +261,15 @@ Kita
 *[JSON5]: JSON5 Data Interchange Format - JSON for Humans, 2012
 
 [Pradžia](../index.md)
+
+Citations: @citationKey, @{citationKey}, [see @citationKey1 p. 42; citationKey2 p. 24]
+
+Fenced divs:
+
+::: {.block-right}
+![Paveikslas](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png)
+:::
+
+Fenced spans: [foo]{.bordered}
+
+[^1]: Pirma nuoroda
